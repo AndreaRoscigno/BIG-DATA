@@ -1,6 +1,6 @@
 # DAWS: Dialect-Aware Warning System
 
-This repository contains the complete implementation and documentation for **DAWS (Dialect-Aware Warning System)**, a Master's degree project developed for the Big Data* courses at the Università degli Studi di Napoli Federico II.
+This repository contains the complete implementation and documentation for **DAWS (Dialect-Aware Warning System)**, a Master's degree project developed for the **Big Data** course at the Università degli Studi di Napoli Federico II.
 
 DAWS is an adaptable framework designed to process and analyze regional speech and code-switching (specifically focusing on Neapolitan and Italian) in critical environments (such as medical consultations). It mitigates the risk of automated transcription errors by integrating phonetic analysis, Retrieval-Augmented Generation (RAG) for Whisper, LLM-based semantic analysis, claim segmentation, and an advanced risk-scoring pipeline.
 

@@ -29,28 +29,7 @@ The processing pipeline consists of several integrated stages:
 
 ---
 
-## Repository Structure
-
-```text
-dashboard/
-├── app.py                  # Home page
-├── db.py                   # MongoDB centralized query layer
-├── requirements.txt        # Python dependencies
-├── .env                    # Environment configuration
-├── .streamlit/
-│   └── config.toml         # Streamlit styling and config
-├── pages/
-│   ├── 1_overview.py       # Global KPIs and session overview
-│   ├── 2_dettaglio.py      # Deep-dive inspection per session
-│   ├── 3_aggregata.py      # Cross-session and dialect analytics
-│   ├── 4_upload.py         # Remote Kaggle inference & audio upload
-│   └── 5_confronto_metriche.py # RAG vs Non-RAG performance comparison
-└── utils/
-    ├── style.py            # Custom CSS styling
-    └── audio.py            # Google Drive audio downloader
-```
-
 ## Collaborators
-** Matteo D'Avino** M63001724
-** Luigi Fienga** M63001733
-** Andrea Roscigno** M63001778
+* **Matteo D'Avino** M63001724
+* **Luigi Fienga** M63001733
+* **Andrea Roscigno** M63001778
